@@ -1,0 +1,83 @@
+@charset "utf-8";
+body{font-family:Arial, Helvetica, sans-serif;margin:0;padding:0}
+.tiny{font-size:10px;font-family:Arial, Helvetica, sans-serif;}
+div.main_container{width:100%;position:absolute;left:0;top:0;}
+div.header{background:url(../images/header.png) no-repeat center top;width:100%;height:194px;float:left;display:none;}
+div.headr_bg{width:100%;height:194px;background:url(../images/header_rpt.png) left top repeat-x;position:fixed;left:0;top:0;z-index:5;display:none;}
+div.turn_absolute{left:0;top:40%;}
+div.turn_absolute_footer{position:absolute;left:0;top:60%;}
+div.margin_minus{margin-top:-100px;}
+div.removeall{position:absolute;left:41%;}
+.leftside{float:left;}
+.rightside{float:right;}
+.rightside li{float:right !important;}
+div.menu_container{overflow:hidden;width:1000px;margin:0 auto;}
+ul.menu{padding:0;margin:0;list-style:none;}
+ul.menu li{float:left;color:#FFF;font-size:14px;width:85px;text-align:center;padding:25px 0 25px 0;}
+ul.menu li a{color:#FFF;text-decoration:none;}
+h1.title{font-size:16px;color:#FFF;text-align:center;padding:0;margin:0;}
+#logod_div{width:210px;height:136px;margin:-60px auto 0 auto;display:none;}
+div.contant_part{position:absolute;left:0;top:118px;width:100%;z-index:0;overflow:hidden;}
+div.content{width:100%;height:1000px;float:left;background:url(../images/content_rpt_light.png) repeat-x #FFF;display:none;position:relative;overflow:hidden;}
+div.pages{width:1000px;clear:both;min-height:500px;margin:0 auto;position:relative;display:none;}
+div.pages div.bg_bubbles{position:absolute;z-index:0;left:0;right:0;top:0;bottom:0;}
+div.bubbles{-webkit-border-radius: 170px;-moz-border-radius: 170px;border-radius: 170px;background:#139BB1;-moz-opacity: 0.11;
+opacity: 0.11;filter:alpha(opacity=40);;position:absolute;}
+div.pages div.page_content{position:absolute;z-index:1;left:0;right:0;top:0;}
+div.pages div.my_about_pic{float:right;width:400px;}
+div.pages div.my_bio_pic{width: 144px;/* margin-left: 435px; */position: absolute;left: 516px;z-index: 5;}
+div.pages div.my_bio_pic img{max-width:100%;}
+div.pages div.my_about_pic img{max-width:100%;}
+div.pages .about_content{float:left;position:relative;margin-top: 170px;}
+div.pages .about_content .circle_links{-webkit-border-radius: 170px;-moz-border-radius: 170px;border-radius: 170px;background:#272727;width:200px;height:200px;overflow:hidden;position:absolute;z-index:5;cursor:pointer;}
+div.pages .about_content .circle_links.circlelink1{width:250px;height:250px;left: 153px;top: -14px;overflow:hidden;position:relative;}
+div.pages .about_content .circle_links.circlelink1 .incircle_links{width:220px;height:220px;margin: 5% auto;}
+div.pages .about_content .circle_links.circlelink2{width:200px;height:200px;left: 363px;top: 7px;z-index: 4;}
+div.pages .about_content .circle_links .incircle_links{-webkit-border-radius: 170px;-moz-border-radius: 170px;border-radius: 170px;background:#E7E7E7;width: 170px;height: 170px;margin: 8% auto;overflow:hidden;}
+div.pages .about_content .circle_links .tag_labels{position: absolute;left: 0px;bottom: 32px;width: 100%;background: #272727;color: #ffffff;font-family: 'Poiret One', cursive;font-size:20px;text-align:center;}
+div.pages .about_content .circle_links .tag_labels p{padding:0 0 0 0;margin:0 0 0 0;}
+div.pages .about_content .circle_links .incircle_links img{-webkit-border-radius: 170px;-moz-border-radius: 170px;border-radius: 170px;max-width:109%;margin: 0 auto;display: block;}
+div.pages .about_content .circle_links .incircle_links img.img_bw{display:block;}
+div.pages .about_content .circle_links .incircle_links img.img_clr{display:none;}
+.light{color:#8E8E8E;}
+.dark{color:#000000;}
+.orng_color{color:#E07300;}
+.orng_color p{color:#E07300 !important;}
+.orng_color p.tiny{color:#23a6ed !important;}
+.orng_bg{background:#E07300 !important;}
+.blue_color{color:#23a6ed;}
+div.pages h1 span.bigtext{font-size:100px; margin-left:-200px;}
+div.pages h1 span.smalltext{font-size:45px;text-align:right;display:block;width:93%;margin-left:200px;}
+div.pages h1{font-family: 'Poiret One', cursive;max-width:322px;word-wrap:break-word;line-height: 45px;}
+div.pages h2{font-family: 'Poiret One', cursive;}
+div.footer{width:100%;height:78px;background:#000;float:left;display:none;}
+div.bg_image{width:100%;height:100%; overflow:hidden;position:absolute;left:0;top:0;background:url(../images/bg_brush_light.png) no-repeat center -100px;display:none;}
+div.mid_strip{width:100%;height:429px;background:url(../images/trans.png);position:absolute;left:0;top:250px;bottom:25%;z-index:2;display:none;}
+div.chacracter{background:url(../images/person_light.png);width:511px;height:925px;position:absolute;z-index:1;left:0;top:0;display:none;}
+div.chacracter_glow{background:url(../images/person_glow.png);width:511px;height:925px;position:absolute;z-index:1;left:0;top:0;display:none;z-index:6}
+div.light{position:absolute;left:0;width:100%;height:100%;z-index:4;}
+div.name_logo{background:url(../images/name_log.png) no-repeat;width:678px;height:346px;margin:0 auto;display:none;}
+div.glow{width:100%;height:100%;position:absolute;background:url(../images/glow.png) no-repeat;left:0;top:0;z-index:9999;background-position: 135px 58px;display:none;}
+img.mylogo{position:absolute;left:30%;bottom:10%;z-index:5000;}
+
+/*Biodata Page*/
+div#bio_page{min-height:575px;}
+div#bio_page div.page_content{position:absolute;z-index:10;left:20%;top: 40px;}
+div#bio_page div.page_content .title_bio{position:absolute;left:78px;top:0; }
+div#bio_page div.page_content h1{font-size:96px;}
+div#bio_page .bio_elements{position:absolute;left:0;top:0;z-index:10;}
+div#bio_page .bio_elements .bio_type{clear:both; }
+div#bio_page .bio_elements .bio_images{width:150px;float:left;}
+div#bio_page .bio_elements .bio_images img{max-width:100%;}
+
+/*education page*/
+#edu_page div.my_edu_pic {max-width: 226px;}
+#edu_page .title_edu{position: absolute;left: 226px;top: 120px;}
+#edu_page .title_edu h1{font-size:70px;max-width:400px;}
+
+@media (min-width: 1400px) and (max-width:1600px) {
+	div.glow{background-position: 257px 58px;}
+}
+@media (max-width: 1024px){
+	div.glow{background-position: -34px 58px;}
+}
